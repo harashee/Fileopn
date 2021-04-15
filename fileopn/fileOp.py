@@ -48,6 +48,10 @@ class fileOpn(object):
         #TODO
         pass
 
+    def count_line():
+        #TODO
+        pass
+
 
 if __name__ == "__main__":
     print(fileOpn.extract_log("sample_logs/test.log"))

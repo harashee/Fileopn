@@ -48,5 +48,6 @@ class fileOpn(object):
         #TODO
         pass
 
+
 if __name__ == "__main__":
     print(fileOpn.extract_log("sample_logs/test.log"))

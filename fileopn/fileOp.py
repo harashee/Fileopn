@@ -48,7 +48,7 @@ class fileOpn(object):
         #TODO
         pass
 
-    def count_line():
+    def count_lines():
         #TODO
         pass
 

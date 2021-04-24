@@ -1,0 +1,6 @@
+ERROR  0x100  File not found
+INFO  0x101  File not found
+ERROR  0x100  File not found
+WARN  0x102  File not found
+ERROR  0x100  File not found
+DEBUG  0x103  File not found

@@ -28,8 +28,15 @@ class fileOpn(object):
                 msg[a[1]][0] +=1    
         return msg
     
-    def replace_string():
-        #TODO
+    def replace_string(file_path,find_str, replace_str, count = 0):
+        with open( file_path,'r') as f:
+            content = f.readlines()
+        
+        for line in content:
+            if find_str in line:
+                line.replace(find_str,replace_str, count)
+        
+
         pass
 
     def get_string_stats():
@@ -55,3 +62,4 @@ class fileOpn(object):
 
 if __name__ == "__main__":
     print(fileOpn.extract_log("sample_logs/test.log"))
+    print(fileOpn.replace_string("sample_logs/test.log", "ERROR", "SUCESS"))
